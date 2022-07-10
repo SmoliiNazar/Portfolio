@@ -264,12 +264,17 @@
     }
     .footer {
         margin-top: 60px;
-        width: 570px;
+        width:576px;
         height: 100px;
         &__wrapper-links {
             padding-top: 20px;
+            margin-right: 10px;
             display: flex;
-            justify-content: space-evenly;
+            flex-wrap: wrap;
+            justify-content: center;
         }
+    }
+    .links-icon {
+        padding-right: 20px;
     }
 }

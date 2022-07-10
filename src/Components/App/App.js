@@ -58,11 +58,12 @@ function App() {
                     <div className="links-icon">
                         <a href="https://github.com/SmoliiNazar"> <img src="icons/social/githubSmall.svg" alt="github"/> Github</a>
                     </div>
+                    
                     <div className="links-icon">
                         <a href="https://www.facebook.com/profile.php?id=100083070131958"> <img src="icons/social/facebook_straight.svg" alt="facebook" /> Facebook</a>
                     </div>
+
                     <div className="links-icon">
-                       
                         <a> <img src="icons/social/telegram.svg" alt="telegram" /> @NazarJFD</a>
                     </div>
                     
