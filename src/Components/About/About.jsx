@@ -15,7 +15,8 @@ const About = () => {
                             <h2 class="title title_fz16 about__title">ABOUT ME</h2>
                             <div class="title title_fz36 about__subtitle">My name is Nazar</div>
                             <div class="divider"></div>
-                            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <p class="about__text">Im an 16 y.o. frontend developer from Ukraine without any experience. I started to learning web development since december of previous year and I'm ready to show the world my skills that i get after studying for 8 moths.
+                            </p>
                         </div>
                         <div class="about__skills">
                             <div class="about__skills-item">
@@ -27,7 +28,7 @@ const About = () => {
                                         Frontend development
                                     </div>
                                     <p class="about__skills-text">
-                                        Im an Junior Frontend developer. Im working with React + Redux, JavaScript, HTML, CSS/SCSS/SASS. Also Im learning TypeScript basics
+                                        Im an Junior Frontend developer. Im working with React + Redux, JavaScript, HTML, CSS/SCSS/SASS. Also Im learning TypeScript basics.
                                     </p>
                                 </div>
                             </div>
