@@ -14,7 +14,7 @@ const Menu = ({items, active, setActive}) => {
                     <nav>
                         <ul className="menu__list">
                                 {items.map(item => 
-                                    <li className='menu__link'>
+                                    <li className='menu__link' key={item.id}>
                                         <Link to={item.href} spy={true} smooth={true} offset={50} duration={1500} onClick={() => setActive(false)}>{item.value}</Link>
                                     </li>
                                 )}
