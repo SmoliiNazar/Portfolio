@@ -46,7 +46,17 @@
             position: relative;
             padding: 2px 0 0 13px;
 
-            @include before_circle;
+            &:before {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                top: -25%;
+                left: 0;
+                width: 36px;
+                height: 36px;
+                border-radius: 100%;
+                background: #9c88ff;
+            }
         }
         &-counter {
             font-size: 14px;
@@ -61,7 +71,7 @@
             span {
                 display: block;
                 height: 100%;
-                background-color: $main-color;
+                background-color: #9c88ff;
                 border-radius: 4px;
             }
         }

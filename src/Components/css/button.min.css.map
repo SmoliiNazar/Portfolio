@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,AAAC,CACD,MAAM,CAAE,IAAI,CACZ,UAAU,CCJD,OAAO,CDKhB,UAAU,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,gBAAmB,CAC3C,OAAO,CAAE,SAAS,CACrB",
+    "sources": [
+        "../style/button.scss",
+        "../style/variables.scss"
+    ],
+    "names": [],
+    "file": "button.min.css"
+}
