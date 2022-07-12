@@ -36,7 +36,7 @@ function App() {
         {id: 'tg' ,img: 'TS.svg', alt: 'type script', header: 'Type Script', descr: 'TypeScript understands JavaScript and uses type inference to give you great tooling without additional code.'},
     ]
 
-    const dwdwd = [
+    const myRatings = [
         {key: 'HL', title: 'HTML5', counter: '100%', percents: '100%'},
         {key: 'CSS3', title: 'CSS3/SCSS/SASS', counter: '100%', percents: '90%'},
         {key: 'JS', title: 'JavaScript', counter: '90%', percents: '90%'},
@@ -55,7 +55,7 @@ function App() {
             </div>
             <AsidePanel/>
             <About/>
-            <Skills myRatings={dwdwd} mySkills={mySkills}/>
+            <Skills myRatings={myRatings} mySkills={mySkills}/>
             <Portfolio data={data}/>
             <footer id='footer' className='footer'>
                 <div className="footer__wrapper-links">
