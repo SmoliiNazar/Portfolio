@@ -38,7 +38,7 @@ function App() {
 
     const myRatings = [
         {key: 'HL', title: 'HTML5', counter: '100%', percents: '100%'},
-        {key: 'CSS3', title: 'CSS3/SCSS/SASS', counter: '100%', percents: '90%'},
+        {key: 'CSS3', title: 'CSS3/SCSS/SASS', counter: '100%', percents: '100%'},
         {key: 'JS', title: 'JavaScript', counter: '90%', percents: '90%'},
         {key: 'REACT', title: 'React', counter: '80%', percents: '80%'},
         {key: 'REDX', title: 'React + Redux', counter: '40%', percents: '40%'},
