@@ -267,12 +267,17 @@
     }
     .form {
         width: 576px;
+        height: 100%;
+        &-btn {
+            bottom: 40px;
+        }
     }
     .footer {
+        margin-top: 60px;
         width:576px;
-        height: 100px;
+        height: 150px;
         &__wrapper-links {
-            padding-top: 20px;
+            padding-top: 50px;
             margin-right: 10px;
             display: flex;
             flex-wrap: wrap;
