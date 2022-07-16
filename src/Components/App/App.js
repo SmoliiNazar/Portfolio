@@ -6,7 +6,7 @@ import Promo from '../Promo/Promo';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Portfolio from '../Portfolio/Portfolio';
-
+import ContactMe from '../Contact/ContactMe';
 import './footer.scss';
 
 function App() { 
@@ -57,6 +57,7 @@ function App() {
             <About/>
             <Skills myRatings={myRatings} mySkills={mySkills}/>
             <Portfolio data={data}/>
+            <ContactMe/>
             <footer id='footer' className='footer'>
                 <div className="footer__wrapper-links">
                     
