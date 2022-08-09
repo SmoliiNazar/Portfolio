@@ -1,6 +1,6 @@
 import * as yup from 'yup';
 
-const nameRules = /[a-zA-Z]/;
+const nameRules = /^[a-zA-Z]*$/gi;
 
 export const basicSchema = yup.object().shape({
     email: yup

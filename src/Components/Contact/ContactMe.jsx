@@ -29,13 +29,14 @@ const BasicForm = () => {
         <div className="form">
             <div className="title title_fz36 form-title">Contact Me</div>
             <div style={{'backgroundColor': '#f5f6fa', 'width': '100px', 'height': '1px'}} className="divider form-divider"></div>
-            <form onSubmit={handleSubmit} autoComplete="off">
+            <form onSubmit={handleSubmit} autoComplete="off" action='send_mail.php' method="POST">
                 
                 <label className="form-label" htmlFor="name">Name</label>
                 <input 
                     value={values.name}
                     onChange={handleChange}
                     id='name'
+                    name="name"
                     placeholder="Enter your name"
                     className={errors.name && touched.name? "input-error form-input" : "form-input"}
                 />
@@ -48,6 +49,7 @@ const BasicForm = () => {
                     value={values.email}
                     onChange={handleChange}
                     id='email'
+                    name="email"
                     placeholder="Enter your email"
                     className={errors.email && touched.email? "input-error form-input" : "form-input"}
                 />
@@ -62,6 +64,7 @@ const BasicForm = () => {
                     value={values.message}
                     onChange={handleChange}
                     id='message'
+                    name="message"
                     placeholder="Enter your message"
                     className={errors.message && touched.message? "input-error form-textarea" : "form-textarea"}
                 />
