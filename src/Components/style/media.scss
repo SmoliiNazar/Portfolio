@@ -2,9 +2,6 @@
     .sidepanel {
         display: none;
     }
-    .form {
-
-    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -223,6 +220,80 @@
     .title {
         &_fz48 {
             font-size: 26px;
+        }
+        &_fz36 {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .menu {
+        height: 100%;
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+            li {
+                margin-top: 80px;
+            }
+        }
+    }
+    .promo {
+        min-width: 570px;
+        background: url('../../../public/imgs/nazar2.jpg') no-repeat 57%/cover;
+        height: 100vh;
+        &__btns {
+            margin-top: 30px;
+        }
+    }
+    .about {
+        &__wrapper {
+            grid-template: 340px auto auto / 1fr;
+            .about__photo {
+                    margin: 0 auto;
+                    width: 400px;
+                    height: 600px;
+                    object-fit: cover;
+            }
+        }
+        &__skills {
+            grid-template-columns: 1fr;
+
+        }   
+    }
+    .form {
+        width: 576px;
+        height: 100%;
+        &-btn {
+            bottom: 40px;
+        }
+    }
+    .footer {
+        margin-top: 60px;
+        width:576px;
+        height: 150px;
+        &__wrapper-links {
+            padding-top: 50px;
+            margin-right: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .links-icon {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        &_fz48 {
+            font-size: 20px;
         }
         &_fz36 {
             font-size: 24px;

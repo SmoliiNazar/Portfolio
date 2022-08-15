@@ -62,15 +62,15 @@ function App() {
                 <div className="footer__wrapper-links">
                     
                     <div className="links-icon">
-                        <a> <img src="icons/social/mail.png" alt="instagram" style={{'width': '30px', 'height': '30px'}}/> smollinazar3000@gmail.com</a>
+                        <a> <img src="icons/social/mail.png" alt="email" style={{'width': '30px', 'height': '30px'}}/> smollinazar3000@gmail.com</a>
                     </div>
                     
                     <div className="links-icon">
-                        <a href="https://github.com/SmoliiNazar"> <img src="icons/social/githubSmall.svg" alt="github"/> Github</a>
+                        <a rel='noreferrer' target={'_blank'} href="https://github.com/SmoliiNazar"> <img src="icons/social/githubSmall.svg" alt="github"/> Github</a>
                     </div>
                     
                     <div className="links-icon">
-                        <a href="https://www.facebook.com/profile.php?id=100083070131958"> <img src="icons/social/facebook_straight.svg" alt="facebook" /> Facebook</a>
+                        <a rel='noreferrer' target={'_blank'} href="https://www.facebook.com/profile.php?id=100083070131958"> <img src="icons/social/facebook_straight.svg" alt="facebook" /> Facebook</a>
                     </div>
 
                     <div className="links-icon">

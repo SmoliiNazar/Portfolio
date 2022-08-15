@@ -10,7 +10,7 @@ const Portfolio = ({data}) => {
 
                 <div className="portfolio__wrapper">
                     {data.map(item => 
-                        <a key={item.id} href={item.href} className={item.classes}>
+                        <a rel='noreferrer' target={'_blank'} key={item.id} href={item.href} className={item.classes}>
                             <img src={item.image} alt={item.alt} />
                         </a>    
                     )}
