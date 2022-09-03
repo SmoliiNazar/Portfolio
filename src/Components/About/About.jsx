@@ -28,7 +28,7 @@ const About = () => {
                                         Frontend development
                                     </div>
                                     <p className="about__skills-text">
-                                        Im an Junior Frontend developer. Im working with React + Redux, JavaScript, HTML, CSS/SCSS/SASS. Also Im learning TypeScript basics.
+                                        Im an Junior Frontend developer. Im working with React, JavaScript, HTML, CSS/SCSS/SASS. Also Im learning TypeScript basics.
                                     </p>
                                 </div>
                             </div>
