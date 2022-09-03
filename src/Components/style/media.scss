@@ -2,14 +2,17 @@
     .sidepanel {
         display: none;
     }
+    .about__text {
+        width: 70%;
+    }
 }
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
     }
     .about {
-        &__wrapper {
-            grid-template-columns: 400px 520px;
+        &__wrapper {    
+            grid-template-columns: 400px 300px;
             column-gap: 40px;
         }
         &__skills {
@@ -150,16 +153,13 @@
             grid-template: 400px auto auto / 1fr;
         }
         &__photo {
-            height: 650px;
             grid-row: unset;
-        }
-        &__descr {
-            margin-top: 230px;
         }
         &__skills {
             grid-template-columns: repeat(2, 260px);
             &-item {
-                margin: 0 auto;
+                grid-template-columns: 40px 200px;
+                column-gap: 20px;
             }
         }
     }
@@ -211,9 +211,14 @@
         }
     }
     .footer {
-        width: 100%;
-        height: 100%;
+        margin-top: 60px;
+    
+        max-width: 100vw;
+        min-height: 6rem;
+        background-color: #1D2228;
+        transition: all 0.6s;
         &__wrapper-links {
+            padding-top: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -226,12 +231,13 @@
 
 @media (max-width: 576px) {
     .container {
-        width: 100%;
-        padding: 0 10px;
+        width: inherit;
     }
     .title {
         &_fz48 {
+            width: 200px;
             font-size: 26px;
+            color: white;
         }
         &_fz36 {
             font-size: 24px;
@@ -239,105 +245,79 @@
         }
     }
     .hamburger {
+        z-index: 1;
         right: 20px;
     }
     .menu {
-        height: 100%;
         &__block {
             width: 250px;
             padding-left: 20px;
-            li {
-                margin-top: 80px;
-            }
         }
     }
     .promo {
-        min-width: 550px;
+        width: 100vw;
+        min-height: 100vh;
         background: url('../../../public/imgs/nazar2.jpg') no-repeat 57%/cover;
-        height: 100vh;
         &__btns {
             margin-top: 30px;
         }
     }
     .about {
         &__wrapper {
-            grid-template: 340px auto auto / 1fr;
-            .about__photo {
-                    margin: 0 auto;
-                    width: 400px;
-                    height: 600px;
-                    object-fit: cover;
-            }
+            grid-template: 340px auto auto / 0.5fr;
+        }
+        &__photo {
+            margin: 0 auto;
+            width: 100%;
         }
         &__skills {
             grid-template-columns: 1fr;
-
-        }   
-    }
-    .footer {
-        min-width: 550px;
-        min-height: 150px;
-        &__wrapper-links {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
         }
     }
-}
-
-@media (max-width: 376px) {
-    .title {
-        &_fz48 {
-            font-size: 20px;
-        }
-        &_fz36 {
-            font-size: 24px;
-            line-height: 36px;
-        }
-    }
-    .hamburger {
-        right: 20px;
-    }
-    .menu {
-        height: 100%;
-        &__block {
-            width: 250px;
-            padding-left: 20px;
-            li {
-                margin-top: 80px;
-            }
-        }
-    }
-    .promo {
-        min-width: 540px;
-        background: url('../../../public/imgs/nazar2.jpg') no-repeat 57%/cover;
-        height: 100vh;
-        &__btns {
-            margin-top: 30px;
-        }
-    }
-    .about {
+    .resume {
         &__wrapper {
-            grid-template: 340px auto auto / 1fr;
-            .about__photo {
-                    margin: 0 auto;
-                    width: 400px;
-                    height: 600px;
-                    object-fit: cover;
-            }
+            padding: 40px 5px 0 5px;
         }
-        &__skills {
-            grid-template-columns: 1fr;
-
-        }   
     }
-    .footer {
-        min-width: 540px;
-        height: 200px;
-        &__wrapper-links {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
+    .skills {
+        &__items {
+            margin-top: 20px;
+        }
+        &__ratings {
+            grid-template-columns: repeat(auto-fit,300px);
+        }
+    }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 295px);
+        }
+    }
+    .contacts {
+        padding-bottom: 50px;
+        &__form {
+            grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+        }
+        &__textarea {
+            grid-column: unset;
+            width: 100%;
+        }
+        &__triggers {
+            grid-column: unset;
+            grid-template-columns: 1fr;
+            column-gap: unset;
+            row-gap: 20px;
+        }
+        &__btn {
+            order: 2;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+        &__policy {
+            width: 180px;
+            margin: 0 auto;
+            line-height: 18px;
         }
     }
 }
+
+//          ../../../public/imgs/nazar2.jpg
